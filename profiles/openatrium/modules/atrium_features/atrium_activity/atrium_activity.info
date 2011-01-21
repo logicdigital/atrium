@@ -1,0 +1,20 @@
+core = "6.x"
+dependencies[] = "comment"
+dependencies[] = "context"
+description = "Activity streams for showing new posts, updates and comments."
+features[context][] = "activity_profile"
+features[ctools][] = "context:context:3"
+features[views][] = "activity_listing"
+features[views_api][] = "api:2"
+kitf = "1.0-draft"
+name = "Atrium Activity"
+package = "Features"
+
+; Autodetected dependencies that are omitted: og_views, spaces
+
+; Information added by fserver
+core = "6.x"
+datestamp = "1294331332"
+project = "atrium_features"
+project status url = "http://code.developmentseed.org/fserver"
+version = "6.x-1.0-alpha11"
